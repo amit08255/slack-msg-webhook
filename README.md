@@ -6,7 +6,7 @@
   <h3 align="center">Slack Devbot</h3>
 
   <p align="center">
-    This is simple NodeJS app designed in NodeJS and Vercel which allows you to send message directly from slack using webhook. This app can be used with libraries like - [https://github.com/amit08255/error-tracer](https://github.com/amit08255/error-tracer) to send error log directly from your NodeJS app to slack.
+    This is simple NodeJS app designed in NodeJS and Vercel which allows you to send message directly to slack using webhook. This app can be used with libraries like - <a href="https://github.com/amit08255/error-tracer">Javascript Error Tracker</a> to send error log directly from your NodeJS app to slack.
     <br />
   </p>
 </p>
@@ -29,7 +29,7 @@ Then install **Vercel cli** on your computer.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/amit08255/slack-workbot.git
+git clone https://github.com/amit08255/slack-msg-webhook.git
 ```
 
 2. Setup and login to your vercel cli.
@@ -93,5 +93,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Amit Kumar - [@amit08255](https://twitter.com/amit08255) - amitcute3@gmail.com
 
-Project Link: [https://github.com/amit08255/slack-workbot](https://github.com/amit08255/slack-workbot)
+Project Link: [https://github.com/amit08255/slack-msg-webhook](https://github.com/amit08255/slack-msg-webhook)
 
