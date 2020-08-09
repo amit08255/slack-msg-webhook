@@ -29,7 +29,7 @@ Then install **Vercel cli** on your computer.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/amit08255/slack-workbot.git
+git clone https://github.com/amit08255/slack-msg-webhook.git
 ```
 
 2. Setup and login to your vercel cli.
@@ -93,5 +93,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Amit Kumar - [@amit08255](https://twitter.com/amit08255) - amitcute3@gmail.com
 
-Project Link: [https://github.com/amit08255/slack-workbot](https://github.com/amit08255/slack-workbot)
+Project Link: [https://github.com/amit08255/slack-msg-webhook](https://github.com/amit08255/slack-msg-webhook)
 
