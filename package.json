@@ -14,7 +14,8 @@
   "author": "Amit Kumar",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "micro": "^9.3.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
