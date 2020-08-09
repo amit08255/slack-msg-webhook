@@ -1,0 +1,38 @@
+{
+  "name": "slack-logbot",
+  "version": "1.0.0",
+  "description": "Simple NodeJS app to send message to slack through webhook.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "transpile": "npx babel ./ --out-dir dist --ignore '/**/*.spec.js','/**/*.test.js','/**/*.jsx','./dist/','./node_modules/','./.next/','./__tests__/','./pages/','./jest.config.js'",
+    "lint": "eslint . --ext .js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
+    "validate": "npm run lint && npm run test"
+  },
+  "author": "Amit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.2.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "jest": "^26.2.2",
+    "lint-staged": "^10.2.11"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base"
+    ]
+  }
+}
